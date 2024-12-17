@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+        <p>Membangun impian dan masa depan!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#konten">Konten</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya adalah seorang pemuda dengan ambisi besar untuk sukses di bidang bisnis, investasi, dan konten kreator.</p>
+    </section>
+    <section id="konten">
+        <h2>Konten Terbaru</h2>
+        <div class="konten-box">
+            <h3>Judul Konten 1</h3>
+            <p>Deskripsi konten singkat untuk menarik perhatian audiens.</p>
+        </div>
+        <div class="konten-box">
+            <h3>Judul Konten 2</h3>
+            <p>Deskripsi konten menarik lainnya.</p>
+        </div>
+    </section>
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" placeholder="Nama Anda">
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" rows="4" placeholder="Tulis pesan Anda"></textarea>
+            
+            <button type="button" onclick="sendMessage()">Kirim</button>
+        </form>
+        <p id="successMessage" style="display:none;">Pesan berhasil dikirim!</p>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2024. Semua hak dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
